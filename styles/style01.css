@@ -22,6 +22,9 @@ nav{
     padding: 20px 0px 10px 0px;
     display: block;
 }
+.navMenu:focus{
+    text-decoration: none;
+}
 .encabezado{
     text-align: left;
     color: rgb(255, 251, 0);
