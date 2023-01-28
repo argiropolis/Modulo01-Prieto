@@ -2,4 +2,82 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  /*   border: 2px solid black; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header{
+    background-image: url(../src/image2.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    padding: 10px 30px 10px 0px;    
+    position:absolute;
+    top: 50px;
+    right: 0px;
+ }
+ .navMenu{
+    display: block;
+    width: 70px;
+    background-color: white;  
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    color: black;    
+}
+.navMenu:focus{
+    text-decoration: none;
+}
+
+.long{
+    display: none;
+}
+.encabezado{
+    background-color: white;
+    padding: 5px 30px 10px 0px;
+    text-align: right;
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+}
+.logoMDHL{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    position: absolute;
+    left: 0px;
+    top: 50px;    
+}
+main{
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+}
+
+.articleMain{
+    width: 80%;
+    padding-top: 20px;
+    position: relative;
+    left: 300px;
+}
+h2{
+    width: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    position: relative;
+    top: 15%;
+ }
+
+article{
+    display:block;
+}
+
+
+footer{
+    display: none;
 }

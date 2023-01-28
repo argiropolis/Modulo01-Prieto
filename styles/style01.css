@@ -16,11 +16,17 @@ header{
 nav{
     padding: 5px 20px 30px 20px;
     position:absolute;
-    top: 450px;
+    top: 425px;
  }
 .navMenu{
     padding: 20px 0px 10px 0px;
     display: block;
+}
+.navMenu:focus{
+    text-decoration: none;
+}
+.short{
+    display: none;
 }
 .encabezado{
     text-align: left;
@@ -34,11 +40,6 @@ nav{
     position: absolute;
     right: 80px;
     top: 350px;    
-}
-.portada{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
 }
 
 main{
