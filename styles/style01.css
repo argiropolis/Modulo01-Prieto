@@ -2,35 +2,69 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  /*   border: 2px solid black; */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
 header{
-    background-color: bisque;
+    background-image: url(../src/image1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    padding: 5px 20px 30px 20px;
+    position:absolute;
+    top: 450px;
+ }
+.navMenu{
+    padding: 20px 0px 10px 0px;
+    display: block;
+}
+.encabezado{
+    text-align: left;
+    color: rgb(255, 251, 0);
+}
+.logoMDHL{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    object-fit: contain;
+    position: absolute;
+    right: 80px;
+    top: 350px;    
+}
+.portada{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 main{
+    width: 100%;
+    height: 400px;
     background-color: whitesmoke;
+}
 
+.articleMain{
+    width: 80%;
+    padding-top: 20px;
+    position: relative;
+    left: 200px;
 }
 h2{
     background-color: black;
     color: white;
     text-align: center;
-    margin: 2px
-    
+    margin: 2px;
  }
 
 article{
     display:block;
 }
 
-.logoMDHL{
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-}
+
 footer{
     display: none;
 }
