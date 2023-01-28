@@ -16,7 +16,7 @@ header{
 nav{
     padding: 5px 20px 30px 20px;
     position:absolute;
-    top: 450px;
+    top: 425px;
  }
 .navMenu{
     padding: 20px 0px 10px 0px;
@@ -24,6 +24,9 @@ nav{
 }
 .navMenu:focus{
     text-decoration: none;
+}
+.short{
+    display: none;
 }
 .encabezado{
     text-align: left;
