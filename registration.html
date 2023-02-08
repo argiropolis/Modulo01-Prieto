@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./styles/style01.css"> -->
+    <!-- <link rel="stylesheet" href="./styles/style02.css"> -->
+    <link rel="stylesheet" href="./styles/style03.css">
+    <title>Mighty Ducks Hockey League</title>
+</head>
+<body>
+    <header>
+        <h1 class="encabezado">Mighty Ducks Hockey League</h1>
+    
+        <img class="logoMDHL" src="./src/LogoMDucks.png" alt="Logo MDHL">
+    
+        <nav>
+            <a class="navMenu" href="./index.html">Home</a>
+            <a class="navMenu long" href="./aboutMDLH.html">About MDLH</a>
+            <a class="navMenu short" href="./aboutMDLH.html">About</a>
+            <a class="navMenu" href="./gameInfo.html">Game Information</a>
+            <a class="navMenu" href="./rules.html">Rules and Policies</a>
+            <a class="navMenu" href="./contact.html">Contact</a>
+            <a class="navMenu" href="./registration.html">Register</a>
+        </nav>
+    </header>
+    <main class="mainForm">
+        <h1 class="h1Form">Registration Form</h1>
+        <form action="./src/asset/show_data.html" method="get">
+            <fieldset class="formName">
+                <fieldset>
+                    <label for="id_name">Player's First Name</label>  
+                    <input type="text" placeholder="put your name" name="firstname" id="id_name">
+                    <label for="id_lastname"> Last name</label>
+                    <input type="text" placeholder="put your last name" name="lastname" id="id_lastname">
+                </fieldset>
+                <fieldset>
+                    <label for="id_adress"> Street Adress</label>
+                    <input type="text" placeholder="put your mail adress" name="adress" id="id_adress">
+                </fieldset>
+                <fieldset>
+                    <label for="id_city">City</label>  
+                    <input type="text" placeholder="put your city" name="city" id="id_city">
+                    <label for="id_zipCode"> Zip Code</label>
+                    <input type="number" placeholder="put your mail zip code" name="zip_code" id="id_zipCode">
+                </fieldset>
+                <fieldset>
+                    <label for="id_birthDate">Birth Date (mm/dd/yyyy)</label> 
+                    <input type="date" name="birth_date" id="id_birthDate">
+                    <label>Gender: </label>
+                    <label for="id_sexo_female"> female</label>
+                    <input type="radio" name="sexo" id="id_sexo_female" value="female">
+                    <label for="id_sexo_male"> male</label>
+                    <input type="radio" name="sexo" id="id_sexo_male" value="male">                  
+                </fieldset>
+                <fieldset>
+                    <legend> Grade:</legend>
+                            <ul class="desordenadaForm">
+                                <li>
+                                    <label for="id_preSchool"> Pre School</label>
+                                    <input type="radio" name="grade" id="id_preSchool" value="preSchool"></li>
+                                <li>
+                                    <label for="id_1st"> 1st </label>
+                                    <input type="radio" name="grade" id="id_1st" value="1st"></li>
+                                <li>
+                                    <label for="id_2nd"> 2nd </label>
+                                    <input type="radio" name="grade" id="id_2nd" value="2nd"></li>
+                                <li>
+                                    <label for="id_3rd"> 3rd </label>
+                                    <input type="radio" name="grade" id="id_3rd" value="3rd"></li>
+                                <li>
+                                    <label for="id_4th"> 4th </label>
+                                    <input type="radio" name="grade" id="id_4th" value="4th"></li>
+                                <li>
+                                    <label for="id_5th"> 5th </label>
+                                    <input type="radio" name="grade" id="id_5th" value="5th"></li>
+                            </ul>
+                </fieldset>
+                <fieldset>
+                        <legend> <h3>Which elementary school do you live? </h3></legend>
+                        <h4>Closest School</h4>
+                        <ul class="desordenadaForm">
+                            <li>
+                                <label for="id_aJ"> AJ Katzenmaier</label>
+                                <input type="radio" name="school" id="id_aJ" value="aj_katzenmaier"></li>
+                            <li>
+                                <label for="id_greenbay"> Greenbay </label>
+                                <input type="radio" name="school" id="id_greenbay" value="greenbay"></li>
+                            <li>
+                                <label for="id_howard"> Howard A Yeager</label>
+                                <input type="radio" name="school" id="id_howard" value="howard"></li>
+                            <li>
+                                <label for="id_marjorie"> Marjorie P Hart </label>
+                                <input type="radio" name="school" id="id_marjorie" value="marjorie"></li>
+                            <li>
+                                <label for="id_north"> North Elementary </label>
+                                <input type="radio" name="school" id="id_north" value="north"></li>
+                            <li>
+                                <label for="id_south"> South Elementary </label>
+                                <input type="radio" name="school" id="id_south" value="south"></li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend> <h3>What position(s) do you normally play? (check all that apply) </h3></legend>
+                        <ul class="desordenadaForm">
+                            <li>
+                                <label for="id_forward"> Forward</label>
+                                <input type="checkbox" name="position" id="id_forward" value="forward"></li>
+                            <li>
+                                <label for="id_defense"> Defense </label>
+                                <input type="checkbox" name="position" id="id_defense" value="defense"></li>
+                            <li>
+                                <label for="id_midfield"> Midfield</label>
+                                <input type="checkbox" name="position" id="id_midfield" value="midfield"></li>
+                            <li>
+                                <label for="id_goalkeeper">Goalkeeper </label>
+                                <input type="checkbox" name="position" id="id_goalkeeper" value="goalkeeper"></li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend> <h3>Uniform Size:</h3></legend>
+                        <ul class="desordenadaForm">
+                            <li>
+                                <label for="id_yS"> Youth Small</label>
+                                <input type="radio" name="usize" id="id_yS" value="youthSmall"></li>
+                            <li>
+                                <label for="id_yM"> Youth Medium </label>
+                                <input type="radio" name="usize" id="id_yM" value="youthMedium"></li>
+                            <li>
+                                <label for="id_yL"> Youth Large</label>
+                                <input type="radio" name="usize" id="id_yL" value="youthLarge"></li>
+                            <li>
+                                <label for="id_small"> Small</label>
+                                <input type="radio" name="usize" id="id_small" value="small"></li>
+                            <li>
+                                <label for="id_medium"> Medium </label>
+                                <input type="radio" name="usize" id="id_medium" value="medium"></li>
+                             <li>
+                                <label for="id_large"> Large</label>
+                                <input type="radio" name="usize" id="id_large" value="large"></li>
+                            <li>
+                                <label for="id_xl"> Extra-Large </label>
+                                <input type="radio" name="usize" id="id_xl" value="extraLarge"></li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend> <h3>Permission to Play</h3></legend>
+                        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation
+                        By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                        <label for="id_agree"> I agree</label>
+                        <input type="radio" name="permission" id="id_agree" value="agree">
+                        <label for="id_noAgree"> No agree </label>
+                        <input type="radio" name="permission" id="id_noAgree" value="noAgree">
+                        <label for="id_agreeDate">Date (mm/dd/yyyy)</label>
+                        <input type="date" name="agree_date" id="id_agreeDate">
+
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" value="send">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Silvina C. Prieto- 2023</p>
+        <p>Marcos Juárez- Córdoba- Argentina</p> 
+    </footer>
+
+</body>
+</html>
