@@ -144,13 +144,43 @@ fieldset{
 article{
     display:block;
 }
-.mainSchedule{
-    display: flex;
-}
-.tabla{
-    width: 100%;
-}
+
+
 
 footer{
     display: none;
+}
+/* Estilos para la pagina gameInfo.html */
+.tableFlex{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tablegame{
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+    table-layout: fixed;
+}
+.h3table{
+    font-style: italic;
+    text-align: left; 
+}
+.h4table{
+    font-style: italic;
+    font-weight: normal;
+    text-decoration-line: underline;
+    text-align: left; 
+}
+th{
+    text-align: left;
+}
+.day{
+    text-align: center;
+}
+.tablefoot{
+    font-weight: bold;
+    text-align: right;
+}
+.tdFoot{
+    text-align: left;
 }
